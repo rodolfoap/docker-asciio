@@ -8,5 +8,4 @@ docker run --rm -it \
 	-e DISPLAY=$DISPLAY \
 	-h $HOSTNAME \
 	-v $HOME/.Xauthority:${HOME}/.Xauthority \
-	asciio
-
+	rodolfoap/asciio:1.51.3-1
